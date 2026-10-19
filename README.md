@@ -88,7 +88,7 @@ Category labels, time of day, and version numbers are optional. Existing history
 
 Issues and pull requests in English or Chinese are welcome. For a behavior issue, include the agent used, your request, relevant sample changes, and the expected and actual result. Small reproducible examples are useful.
 
-Keep the skill focused on documentation updates and change records. Update both READMEs when their content changes, and update this repository's [changelog](CHANGELOG.md) for meaningful rule or behavior changes.
+Keep the skill focused on documentation updates and change records. Update both READMEs when their content changes.
 
 Before submitting, check the YAML frontmatter, relative links, and `git diff --check`. When changing behavior, exercise the affected scenarios in a disposable project with a supported agent:
 
@@ -103,7 +103,7 @@ These are verification criteria, not a claim that automated end-to-end tests are
 
 ## Releases
 
-Maintainers can publish a Git tag and a short GitHub Release summary for stable versions. Record meaningful behavior changes in `CHANGELOG.md`; wording-only fixes need not create a release. Versioning applies to this skill's releases and does not impose a versioning scheme on target projects.
+Track day-to-day changes with descriptive Git commit messages. Maintainers can publish a Git tag and a short GitHub Release summary for stable versions; wording-only fixes need not create a release. Versioning applies to this skill's releases and does not impose a versioning scheme on target projects.
 
 ## License
 

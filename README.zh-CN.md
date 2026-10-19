@@ -88,7 +88,7 @@ git clone https://github.com/Dominic-jj/sync-docs.git "$HOME/.claude/skills/sync
 
 欢迎使用中文或英文提交 Issue、Pull Request。报告行为问题时，请附上所用 agent、你的请求、相关示例改动，以及预期和实际结果，尽量提供便于复现的小例子。
 
-保持 skill 聚焦于文档同步和更改记录。修改 README 内容时同步两种语言；有实质规则或行为变化时，更新本仓库的[更改记录](CHANGELOG.md)。
+保持 skill 聚焦于文档同步和更改记录。修改 README 内容时同步两种语言。
 
 提交前核对 YAML 元数据、相对链接并执行 `git diff --check`。修改行为规则时，在临时项目中使用支持的 agent 验证受影响的场景：
 
@@ -103,7 +103,7 @@ git clone https://github.com/Dominic-jj/sync-docs.git "$HOME/.claude/skills/sync
 
 ## 发布
 
-维护者可以为稳定版本创建 Git tag，并在 GitHub Release 中简要说明变化。实质行为变化写入 `CHANGELOG.md`；纯措辞修订无需单独发布版本。版本管理针对本 skill 的发布，不强制目标项目采用某种版本规则。
+通过清楚的 Git 提交说明记录日常变化。维护者可以为稳定版本创建 Git tag，并在 GitHub Release 中简要说明变化；纯措辞修订无需单独发布版本。版本管理针对本 skill 的发布，不强制目标项目采用某种版本规则。
 
 ## 许可证
 
